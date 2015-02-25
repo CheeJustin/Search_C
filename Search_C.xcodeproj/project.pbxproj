@@ -14,6 +14,7 @@
 		ECA989001A9D79C40021CFB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA988FF1A9D79C40021CFB1 /* Images.xcassets */; };
 		ECA989031A9D79C40021CFB1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECA989011A9D79C40021CFB1 /* LaunchScreen.xib */; };
 		ECA9890F1A9D79C40021CFB1 /* Search_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA9890E1A9D79C40021CFB1 /* Search_CTests.m */; };
+		ECD922631A9D860B009DA7B9 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD922621A9D860B009DA7B9 /* Game.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		ECA989081A9D79C40021CFB1 /* Search_CTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Search_CTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA9890D1A9D79C40021CFB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECA9890E1A9D79C40021CFB1 /* Search_CTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Search_CTests.m; sourceTree = "<group>"; };
+		ECD922621A9D860B009DA7B9 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
+		ECD922641A9D866C009DA7B9 /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		ECA988F11A9D79C30021CFB1 /* Search_C */ = {
 			isa = PBXGroup;
 			children = (
+				ECD922641A9D866C009DA7B9 /* Game.h */,
+				ECD922621A9D860B009DA7B9 /* Game.m */,
 				ECA988F61A9D79C30021CFB1 /* AppDelegate.h */,
 				ECA988F71A9D79C30021CFB1 /* AppDelegate.m */,
 				ECA988F91A9D79C30021CFB1 /* ViewController.h */,
@@ -222,6 +227,7 @@
 				ECA988FB1A9D79C30021CFB1 /* ViewController.m in Sources */,
 				ECA988F81A9D79C30021CFB1 /* AppDelegate.m in Sources */,
 				ECA988F51A9D79C30021CFB1 /* main.m in Sources */,
+				ECD922631A9D860B009DA7B9 /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +420,7 @@
 				ECA989141A9D79C40021CFB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECA989151A9D79C40021CFB1 /* Build configuration list for PBXNativeTarget "Search_CTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				ECA989171A9D79C40021CFB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
